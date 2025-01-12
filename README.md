@@ -1,1 +1,3 @@
-# ToDoList_TypeScript
+# Todo Liste en TypeScript
+
+Maxime Lebas
