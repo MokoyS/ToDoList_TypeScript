@@ -1,0 +1,13 @@
+#todolist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#task-form {
+    width: 400px;
+}

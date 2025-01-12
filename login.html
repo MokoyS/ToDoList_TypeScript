@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main-form">
+    <form id="login-form">
+    <h2 class="login-title">Connexion</h2>
+      <label>
+        Nom d'utilisateur :
+        <input type="text" id="login-username" required autocomplete="off">
+      </label>
+      <label>
+        Mot de passe :
+        <input type="password" id="login-password" required autocomplete="off">
+      </label>
+      <button type="submit">Connexion</button>
+      <p>Vous n'avez pas de compte ? <a href="register.html">Inscrivez-vous</a></p>
+    </form>
+  </main>
+  <script src="lib/login.js" type="module"></script>
+</body>
+</html>

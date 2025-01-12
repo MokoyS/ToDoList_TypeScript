@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil - Système d'authentification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="login.html">Connexion</a></li>
+            <li><h1>Moko TodoList</h1></li>
+            <li><button id="logout-button">Déconnexion</button></li>
+          </ul>
+        </nav>
+      </header>
+      
+  <main>
+    <p>Pour accéder à vos tâches, veuillez vous connecter ou vous inscrire.</p>
+    
+    <section id="todolist" class="hidden">
+      <h2>Votre To-Do List</h2>
+      <form id="task-form">
+        <label>
+          Titre :
+          <input type="text" id="task-title" required>
+        </label>
+        <label>
+          Description :
+          <textarea id="task-desc" required></textarea>
+        </label>
+        <label>
+          Date limite :
+          <input type="date" id="task-deadline" required>
+        </label>
+        <button type="submit">Ajouter une tâche</button>
+      </form>
+      
+      <ul id="tasks"></ul>
+    </section>
+  </main>
+  <script src="lib/index.js" type="module"></script>
+  <script src="lib/app.js" type="module"></script>
+</body>
+</html>
